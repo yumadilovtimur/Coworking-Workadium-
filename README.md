@@ -1,2 +1,2 @@
 # yumadilovtimur.github.io
-loftschool project 1
+Корпоративный сайт коворкинг студии "Workadium", разработанный в рамках курса "Основы вёрстки" от Loftschool.
