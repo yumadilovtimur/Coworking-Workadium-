@@ -26,6 +26,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -51,8 +53,17 @@ h6 {
   margin-top: 0;
 }
 
+*::selection {
+  background-color: #ec1e79;
+  color: #ffffff;
+}
+
 .main-header {
   background-color: #27273e;
+}
+
+.main-header--bottom-margin {
+  margin-bottom: 45px;
 }
 
 .container {
@@ -94,6 +105,7 @@ h6 {
   font-weight: 700;
   text-decoration: underline;
   line-height: 18px;
+  cursor: pointer;
 }
 
 .contacts__worktime:hover {
@@ -189,6 +201,36 @@ h6 {
 
 .menu__link:hover {
   filter: brightness(0%);
+}
+
+.breadcrumbs--margin-bottom {
+  margin-bottom: 15px;
+}
+
+.breadcrumbs__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__link {
+  opacity: 0.8;
+  font-family: "Gotham Pro", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ec1e79;
+  text-decoration: underline;
+}
+
+.breadcrumbs__link--active {
+  color: #221f1f;
+  text-decoration: none;
 }
 
 .features__title {
@@ -416,8 +458,172 @@ h6 {
   top: -2px;
 }
 
+.note {
+  height: 174px;
+  background-color: #27273e;
+  background-image: url(/images/note-pattern.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+}
+
+.note--margins {
+  margin: 57px 0;
+}
+
+.note__text {
+  margin: 0;
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 611px;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.note__special-text {
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-weight: 700;
+}
+
+.review {
+  width: 560px;
+  min-height: 327px;
+  padding: 50px 70px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+}
+
+.review__title {
+  color: #221f1f;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.review__flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 327px;
+}
+
+.review__form-element:nth-child(1),
+.review__form-element:nth-child(2) {
+  align-self: flex-start;
+}
+
+.review__form-element:nth-child(3) {
+  align-self: center;
+}
+
+.review__form-element:nth-child(4),
+.review__form-element:nth-child(5) {
+  align-self: flex-end;
+}
+
+.review__text {
+  display: block;
+  color: #221f1f;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 11px;
+  margin-bottom: 9px;
+}
+
+.review__text-input {
+  width: 259px;
+  height: 45px;
+  background-color: #ffffff;
+  border: none;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.review__textarea {
+  width: 538px;
+  height: 65px;
+  padding: 10px;
+  border: 1px solid #ec1e79;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.review__text-input:focus,
+.review__textarea:focus {
+  box-shadow: 2px 2px 5px 0 rgba(236, 30, 123, 0.5);
+}
+
+.review__radio-label {
+  color: #221f1f;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.review__radio {
+  display: none;
+}
+
+.review__radio-label::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #c9c9c9;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+
+.review__submit {
+width: 139px;
+height: 45px;
+background-color: #27273e;
+border: none;
+border-radius: 3px;
+font-family: "Gotham Pro", sans-serif;
+color: #ffffff;
+font-size: 12px;
+font-weight: 700;
+line-height: 12px;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+cursor: pointer;
+}
+
+.review__submit:hover {
+  background-color: #ec1e79;
+}
+
+.review__radio:checked + .review__radio-label::before {
+  width: 8px;
+  height: 8px;
+  background-color: #ec1e79;
+  border: 6px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #ec1e79;
+}
+
 .main-footer {
   background-color: #27273e;
+}
+
+.main-footer--margin-top {
   margin-top: 70px;
 }
 
