@@ -513,7 +513,7 @@ h6 {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  min-height: 327px;
+  min-height: 261px;
 }
 
 .review__form-element:nth-child(1),
