@@ -1,0 +1,115 @@
+
+.main-footer {
+  background-color: #27273e;
+}
+
+.main-footer--margin-top {
+  margin-top: 70px;
+}
+
+.main-footer--flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+
+.main-footer__copyright {
+  color: #ffffff;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  width: 270px;
+}
+
+.main-footer__copyright a {
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.main-footer__author {
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 700;
+}
+
+.main-footer__social-text {
+  color: #ffffff;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main-footer__social-list {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.main-footer__social-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main-footer__social-btn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-footer__social-item--vk {
+  background-image: url(/images/vk.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-footer__social-item--fb {
+  background-image: url(/images/fb.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-footer__social-item--gp {
+  background-image: url(/images/gp.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-footer__social-item--tw {
+  background-image: url(/images/tw.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-footer__social-item--mail {
+  background-image: url(/images/mail.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-footer__social-item--vk:hover {
+  background-image: url(/images/vk-hover.png);
+}
+
+.main-footer__social-item--fb:hover {
+  background-image: url(/images/fb-hover.png);
+}
+
+.main-footer__social-item--gp:hover {
+  background-image: url(/images/gp-hover.png);
+}
+
+.main-footer__social-item--tw:hover {
+  background-image: url(/images/tw-hover.png);
+}
+
+.main-footer__social-item--mail:hover {
+  background-image: url(/images/mail-hover.png);
+}

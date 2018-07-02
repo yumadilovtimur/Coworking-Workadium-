@@ -1,0 +1,12 @@
+.keyvisual {
+  height: 359px;
+  background-image: url(/images/banner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #27273e;
+  margin-bottom: 67px;
+}
+
+.keyvisual__title {
+  display: none;
+}

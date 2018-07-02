@@ -1,0 +1,127 @@
+.review {
+  width: 560px;
+  min-height: 327px;
+  padding: 50px 70px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+}
+
+.review__title {
+  color: #221f1f;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.review__flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 261px;
+}
+
+.review__form-element:nth-child(1),
+.review__form-element:nth-child(2) {
+  align-self: flex-start;
+}
+
+.review__form-element:nth-child(3) {
+  align-self: center;
+}
+
+.review__form-element:nth-child(4),
+.review__form-element:nth-child(5) {
+  align-self: flex-end;
+}
+
+.review__text {
+  display: block;
+  color: #221f1f;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 11px;
+  margin-bottom: 9px;
+}
+
+.review__text-input {
+  width: 259px;
+  height: 45px;
+  background-color: #ffffff;
+  padding: 0;
+  padding-left: 10px;
+  border: none;
+}
+
+.review__textarea {
+  width: 538px;
+  height: 65px;
+  padding: 10px;
+  border: 1px solid #ec1e79;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.review__text-input:focus,
+.review__textarea:focus {
+  outline: 1px solid rgb(236, 30, 12);
+}
+
+.review__radio-label {
+  color: #221f1f;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.review__radio {
+  display: none;
+}
+
+.review__radio-label::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #c9c9c9;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+
+.review__submit {
+  width: 139px;
+  height: 45px;
+  background-color: #27273e;
+  border: none;
+  border-radius: 3px;
+  font-family: "Gotham Pro", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  cursor: pointer;
+}
+
+.review__submit:hover {
+  background-color: #ec1e79;
+}
+
+.review__radio:checked+.review__radio-label::before {
+  width: 8px;
+  height: 8px;
+  background-color: #ec1e79;
+  border: 6px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #ec1e79;
+}

@@ -1,0 +1,70 @@
+.main-sidebar {
+  margin-right: 70px;
+}
+
+.main-sidebar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-sidebar__item {
+  margin-bottom: 32px;
+}
+
+.main-sidebar__link {
+  color: #ec1e79;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 37px;
+}
+
+.main-sidebar__link--general::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 16px;
+  background-image: url(/images/navigation-icon-1.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  top: -1px;
+  left: 0px;
+}
+
+.main-sidebar__link--active {
+  text-decoration: underline;
+  filter: brightness(0%);
+}
+
+.main-sidebar__link--reviews::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  background-image: url(/images/navigation-icon-2.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  top: -3px;
+  left: 0px;
+}
+
+.main-sidebar__link--rates::before {
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 16px;
+  background-image: url(/images/navigation-icon-3.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  top: -1px;
+  left: 0px;
+}
+
+.main-sidebar__link:hover {
+  filter: brightness(0%);
+}

@@ -1,0 +1,32 @@
+.note {
+  height: 174px;
+  background-color: #27273e;
+  background-image: url(/images/note-pattern.png);
+  background-position: center center;
+  background-repeat: repeat-x;
+}
+
+.note--margins {
+  margin: 57px 0;
+}
+
+.note__text {
+  margin: 0;
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 611px;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.note__special-text {
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-weight: 700;
+}
