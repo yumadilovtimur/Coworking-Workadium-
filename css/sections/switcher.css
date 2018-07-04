@@ -61,6 +61,8 @@
   color: #221f1f;
   text-decoration: none;
   padding: 7px 8px;
+  transition-property: all;
+  transition-duration: 0.4s;
 }
 
 .switcher__link:not(.switcher__link--active):hover {

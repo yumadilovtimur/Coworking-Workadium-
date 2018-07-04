@@ -1,0 +1,36 @@
+.partners {
+  margin-bottom: 90px;
+}
+
+.partners__title {
+  color: #221f1f;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 40px;
+}
+
+.partners--flex-conteiner {
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners__link {
+  display: inline-block;
+  flex-basis: 33%;
+  text-decoration: none;
+  font-size: 0;
+  filter: grayscale(1);
+  flex-grow: 1;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}

@@ -4,6 +4,7 @@
 @import url('./base/base.css');
 
 /* sections */
+@import url('./sections/intro.css');
 @import url('./sections/main-header.css');
 @import url('./sections/main-logo.css');
 @import url('./sections/contacts.css');
@@ -15,4 +16,6 @@
 @import url('./sections/switcher.css');
 @import url('./sections/note.css');
 @import url('./sections/review.css');
+@import url('./sections/rates.css');
+@import url('./sections/partners.css');
 @import url('./sections/main-footer.css');
