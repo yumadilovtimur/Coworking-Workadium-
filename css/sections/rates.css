@@ -36,9 +36,29 @@
   margin-bottom: 25px;
 }
 
+.rates__preview::before {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 153px;
+  background-color: rgba(39, 39, 62, 0.85);
+  position: absolute;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
 .rates__img {
   width: 250px;
   height: 153px;
+}
+
+.rates__preview:hover > .rates__name {
+  opacity: 0;
+}
+
+.rates__preview:hover::before {
+  opacity: 0;
 }
 
 .rates__name {
@@ -52,6 +72,8 @@
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
   text-transform: uppercase;
+  transition-property: all;
+  transition-duration: 0.5s;
 }
 
 .rates__name--special {
